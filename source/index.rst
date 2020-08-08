@@ -9,6 +9,9 @@ style, and syntax consistent.
 .. toctree::
    :maxdepth: 2
 
+Except where otherwise noted, this document is licensed under Creative Commons Attribution
+Share Alike 4.0 International License.
+
 .. note::
 
    Parts of this contributor guide are based on the OpenStack contributor guides.
