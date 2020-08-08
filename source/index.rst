@@ -7,7 +7,9 @@ to be considered by all contributors. Please follow these guidelines to keep the
 style, and syntax consistent.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+
+   dco-and-licenses
 
 Except where otherwise noted, this document is licensed under Creative Commons Attribution
 Share Alike 4.0 International License.
