@@ -32,8 +32,8 @@ the Sovereign Cloud Stack.
        maintained indefinitely and may be redistributed consistent with
        this project or the open source license(s) involved.
 
-All contributions to the Sovereign Cloud Stack are licensed under the Apache License
-Version 2.0, January 2004 (http://www.apache.org/licenses/). All documentation content
+All contributions to the Sovereign Cloud Stack are licensed under the GNU General Public
+License 3 (https://www.gnu.org/licenses/gpl-3.0.html). All documentation content
 is licensed under Creative Commons BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
 
 Contributors sign-off that they adhere to these requirements by adding a ``Signed-off-by``
