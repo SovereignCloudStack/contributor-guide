@@ -11,6 +11,8 @@ style, and syntax consistent.
 
    dco-and-licenses
    meetings
+   teams
+   glossary
 
 Except where otherwise noted, this document is licensed under Creative Commons Attribution
 Share Alike 4.0 International License.
