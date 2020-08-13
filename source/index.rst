@@ -10,6 +10,7 @@ style, and syntax consistent.
    :maxdepth: 1
 
    dco-and-licenses
+   meetings
 
 Except where otherwise noted, this document is licensed under Creative Commons Attribution
 Share Alike 4.0 International License.
