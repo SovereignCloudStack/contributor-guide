@@ -2,35 +2,34 @@
 License considerations for SCS
 ==============================
 
-As Sovereign Cloud Stack (`SCS <https://scs.community/>`_), our mission is to provide 
-Operators (be it Cloud Service Providers
-or just internal IT departments) with a well working software stack, that avoids exposing
-them to legal risks or additional restrictions that limits the usefulness. Free software
-licenses have this intention but differ in how they achieve it and in what kind of
-protections they provide. In the first approximation, all 
-`OSI <https://opensource.org/licenses>`_-approved open source
-licenses can be considered as valid options. As a matter of fact, we do consider projects
-under such licenses as valid modules for SCS -- where we use such projects and adjust or extend them,
-we would provide our contributions under the license terms of the respective project, so we can
-achieve our goal to feed back code upstream to the respective project, contribute to it
-and avoid fragmentation.
+As Sovereign Cloud Stack (`SCS <https://scs.community/>`_), our mission is to provide Operators
+(be it Cloud Service Providers or just internal IT departments) with a well working software
+stack, that avoids exposing them to legal risks or additional restrictions that limits the
+usefulness. Free software licenses have this intention but differ in how they achieve it and in
+what kind of protections they provide. In the first approximation, all `OSI
+<https://opensource.org/licenses>`_-approved open source licenses can be considered as valid
+options. As a matter of fact, we do consider projects under such licenses as valid modules for
+SCS -- where we use such projects and adjust or extend them, we would provide our contributions
+under the license terms of the respective project, so we can achieve our goal to feed back code
+upstream to the respective project, contribute to it and avoid fragmentation.
 
 Where we do create independent code, we do have additional preferences, though.
 
-For our own code, we do prefer the `Affero General Public License version 
-3 <https://www.gnu.org/licenses/agpl-3.0.html>`_
-(AGPLv3) as license. Likewise, for documentation, we prefer `CC-BY-SA <https://en.wikipedia.org/wiki/CC-BY-SA>`_.
+For our own code, we do prefer the `Affero General Public License version 3
+<https://www.gnu.org/licenses/agpl-3.0.html>`_ (AGPLv3) as license. Likewise, for documentation,
+we prefer `CC-BY-SA <https://en.wikipedia.org/wiki/CC-BY-SA>`_.
 
 Reciprocity
 -----------
 
-The GPL family of licenses are reciprocal licenses -- sometimes called
-`copyleft <https://en.wikipedia.org/wiki/Copyleft>`_ licenses -- the recipient of the licensed code
-can make all sorts of modifications, but if she uses the code to release software (GPL)
-or provide a networked service (AGPL) to others, then she must grant the same rights
-to the recipients -- this includes making the modifications available under the same terms
-as the received software. Microsoft has infamously `attacked <https://web.archive.org/web/20010615205548/http://suntimes.com/output/tech/cst-fin-micro01.html>`_ copyleft licenses (and specifically
-the GPL) as cancerous "viral" license.
+The GPL family of licenses are reciprocal licenses -- sometimes called `copyleft
+<https://en.wikipedia.org/wiki/Copyleft>`_ licenses -- the recipient of the licensed code can
+make all sorts of modifications, but if she uses the code to release software (GPL) or provide a
+networked service (AGPL) to others, then she must grant the same rights to the recipients --
+this includes making the modifications available under the same terms as the received software.
+Microsoft has infamously `attacked
+<https://web.archive.org/web/20010615205548/http://suntimes.com/output/tech/cst-fin-micro01.html>`_
+copyleft licenses (and specifically the GPL) as cancerous "viral" license.
 
 Reciprocity has many advantages:
 
@@ -62,21 +61,19 @@ Controversy
   This is a bit of a legacy issue -- the GPL version 3 does already contain language
   that has cure provisions.
 
-* Many companies seem to be worried that they will inadvertently violate the GPL by
-  negligence. And it is true that a company needs a tighter control of the usage of 
-  inbound source code which comes with a reciprocal license than the permissive
-  BSD 3-clause or Apache Software (v2) licenses. This advantage however quickly
-  turns into a disadvantage as soon as the company does significant outbound 
-  open source contributions under a permissive license -- they rarely want to
-  give their competitors an opportunity to consume their contributions and then
-  add proprietary changes to gain an advantage.
-  In general, companies are well advised to have a detailed understanding of all
-  code that is being used and contributed and their respective license terms -- for
-  proprietary and open source code and for reciprocal and for permissive licenses.
-  Some companies have successfully installed license review boards or `open source
-  review boards <https://www.linuxfoundation.org/resources/open-source-guides/using-open-source-code/>`_ 
-  to create oversight, recommendations and policies to ease the 
-  governance.
+* Many companies seem to be worried that they will inadvertently violate the GPL by negligence.
+  And it is true that a company needs a tighter control of the usage of inbound source code
+  which comes with a reciprocal license than the permissive BSD 3-clause or Apache Software (v2)
+  licenses. This advantage however quickly turns into a disadvantage as soon as the company does
+  significant outbound open source contributions under a permissive license -- they rarely want
+  to give their competitors an opportunity to consume their contributions and then add
+  proprietary changes to gain an advantage.  In general, companies are well advised to have a
+  detailed understanding of all code that is being used and contributed and their respective
+  license terms -- for proprietary and open source code and for reciprocal and for permissive
+  licenses.  Some companies have successfully installed license review boards or `open source
+  review boards
+  <https://www.linuxfoundation.org/resources/open-source-guides/using-open-source-code/>`_ to
+  create oversight, recommendations and policies to ease the governance.
 
 Despite this, many of the recent open source projects, especially in the cloud world
 have adopted permissive licenses, such as X11, BSD 3-clause, MIT and especially the popular
@@ -105,10 +102,10 @@ The very successful `nextcloud <https://nextcloud.org/>`_ project uses the AGPLv
 Patents
 -------
 
-Free software lienses are intended to give users broad rights -- the GNU GPL talks about the `four
-freedoms <https://fsfe.org/freesoftware/>`_ to use software for any purpose, to study und 
-adjust the software (this needs source code
-access), to redistribute the software and to improve it and to make these improvements available.
+Free software lienses are intended to give users broad rights -- the GNU GPL talks about the
+`four freedoms <https://fsfe.org/freesoftware/>`_ to use software for any purpose, to study und
+adjust the software (this needs source code access), to redistribute the software and to improve
+it and to make these improvements available.
 
 Software patents can significantly subvert the intended rights -- the open source community in
 general dislikes software patents for this and many other reasons that are discussed 
@@ -131,21 +128,23 @@ it pledges to contribute these to the OIN pool.
 Copyright Assignments
 ---------------------
 
-Many software projects use `Contributor License Agreements <https://en.wikipedia.org/wiki/Contributor_License_Agreement>`_ (CLAs), 
-where any code contribution
-needs to assign the copyright to the project owner (a foundation or sometimes a company). This
-ensures that the project owner has all needed rights. It also allows the project owner to
-enforce the license, to change it or to create derived works under a different license.
+Many software projects use `Contributor License Agreements
+<https://en.wikipedia.org/wiki/Contributor_License_Agreement>`_ (CLAs), where any code
+contribution needs to assign the copyright to the project owner (a foundation or sometimes a
+company). This ensures that the project owner has all needed rights. It also allows the project
+owner to enforce the license, to change it or to create derived works under a different license.
 
-While this is advantageous for the project owner, it is not necessarily advantageous for the code contributor.
+While this is advantageous for the project owner, it is not necessarily advantageous for the
+code contributor.
 
 Copyright enforcement does not require all copyrights to be held by a legal entity. Any holder
 of significant copyrights can actually enforce it against violators.
 
-The Linux kernel and an increasing number of projects do not work with copyright assignments
-but with `Developer Certificates of Origin <https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin>`_ 
-(DCO -- the signed-off lines of kernel commits).
-This is deemed sufficient to document the origin and the authorization to contribute code.
+The Linux kernel and an increasing number of projects do not work with copyright assignments but
+with `Developer Certificates of Origin
+<https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin>`_ (DCO -- the signed-off lines
+of kernel commits).  This is deemed sufficient to document the origin and the authorization to
+contribute code.
 
 The SCS project does not intend to change the license nor to create differently licensed derived
 works -- it has thus decided to abstain from CLAs and use DCOs instead.
