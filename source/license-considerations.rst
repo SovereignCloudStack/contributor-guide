@@ -38,12 +38,12 @@ Reciprocity has many advantages:
   including its enhancements etc. (technically: all derived works[*]_) will remain free.
 
 * The obligation to make the changes available avoids fragmentation. As changed and
-  "improved" versions need to be made available, it is much easier to review and feed 
+  "improved" versions need to be made available, it is much easier to review and feed
   those changes back and create a unified upstream codebase that reflects the needs of
   the complete userbase by including the needed changes. This was observed and
   `reported <https://lwn.net/Articles/660428/>`_ by Martin Fink (HP's former CTO).
 
-The hugely successful `Linux kernel <https://kernel.org/>`_ project uses the GNU GPL; 
+The hugely successful `Linux kernel <https://kernel.org/>`_ project uses the GNU GPL;
 many of the more traditional key projects in the open source world use copyleft licenses such as
 the AGPL, GNU GPL, GNU LGPL or MPL.
 
@@ -108,7 +108,7 @@ adjust the software (this needs source code access), to redistribute the softwar
 it and to make these improvements available.
 
 Software patents can significantly subvert the intended rights -- the open source community in
-general dislikes software patents for this and many other reasons that are discussed 
+general dislikes software patents for this and many other reasons that are discussed
 `elsewhere <https://en.wikipedia.org/wiki/Software_patents_and_free_software>`_ .
 In some countries, there are rules that prevent pure software from being patented, though not
 all patent offices are fully following these rules.[#]_
@@ -116,7 +116,7 @@ all patent offices are fully following these rules.[#]_
 As software patents are existing and a serious danger to the open source goals, there are a few
 attempts to improve the situation. The Apache Software License (a permissive license), requires
 code contributors to grant an implicit patent license to all downstream recipients of the code
-to use it in the project that it was contributed to. The 
+to use it in the project that it was contributed to. The
 `Open Invention Network <https://www.openinventionnetwork.com/>`_ (OIN) has a
 meanwhile huge patent pool that is cross-licensed between all participants and which can freely
 be used by a large list of covered open source software by everyone, except for those that
@@ -157,7 +157,7 @@ Further reading on DCO:
 
 
 .. [*] Consuming source code and binary linking is typically considered creating derived
-   works, whereas interacting via a network API or starting another process is typically 
+   works, whereas interacting via a network API or starting another process is typically
    considered a copyright boundary; using Linux system calls has been explicitly called
    out to be a copyright boundary.
 
