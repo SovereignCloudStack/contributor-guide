@@ -58,8 +58,12 @@ The status of a pull request is set to failed if commits do not contain a valid
 
 .. figure:: /images/github-failed-dco.png
 
-Further readings
-================
+Considerations behind the choice of AGPLv3, CC-BY-SA and the usage of the DCO can be
+found `here <license-considerations.html>`_.
+
+
+Further reading
+===============
 
 * https://developercertificate.org
 * https://julien.ponge.org/blog/developer-certificate-of-origin-versus-contributor-license-agreements/
