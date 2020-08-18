@@ -85,15 +85,15 @@ policies in place.
 Affero
 ------
 
-The reciprocity of the GNU GPL does not apply on the creation of a derived work. A company
+The reciprocity of the GNU GPL does not apply on the *creation* of a derived work. A company
 can consume GPL'ed code and change it to their own liking without ever making any the
 changes available if only used in-house. The terms however do apply as soon as the derived
-work is released, i.e. the software is passed on to a third party.
+work is *released*, i.e. the software is passed on to a third party.
 
-In modern times, software is often used to provide a service (think SaaS) to third parties.
-Unlike the standard GPL, the Affero GPL (AGPL) does consider the act of making it available in
-such a way as similar to releasing the software and does require that applied changes are being
-made available in this case.
+In modern times, software is often used to provide a *networked service* (think SaaS) to third
+parties. Unlike the standard GPL, the Affero GPL (AGPL) does consider the act of making it
+available in such a way as similar to releasing the software and does require that applied
+changes are being made available in this case.
 
 The AGPL thus closes a shortcoming in the traditional non-Affero GPL.
 
@@ -146,8 +146,13 @@ with `Developer Certificates of Origin
 of kernel commits).  This is deemed sufficient to document the origin and the authorization to
 contribute code.
 
-The SCS project does not intend to change the license nor to create differently licensed derived
-works -- it has thus decided to abstain from CLAs and use DCOs instead.
+The SCS project will not change the license. There however might be cases, where
+potential users can not consume AGPL'ed code (e.g. due to immature license governance
+practices or lawyers that panick). So the SCS project might want to create a commercially
+licensed and expensive but otherwise identical release for such customers, so they can adopt
+SCS with lower perceived legal risks in return for paying for engineering work at SCS.
+We are still working out whether that can be achieved with DCOs (under a permissive license)
+or whether we'll need CLAs for this.
 
 Further reading on DCO:
 
