@@ -21,6 +21,7 @@ we prefer `CC-BY-SA <https://en.wikipedia.org/wiki/CC-BY-SA>`_.
 Where we create standard libraries to interface with our software, we would
 consider the `LGPLv3 <https://www.gnu.de/documents/lgpl-3.0.en.html>`_ for these.
 
+
 Reciprocity
 -----------
 
@@ -50,19 +51,22 @@ The hugely successful `Linux kernel <https://kernel.org/>`_ project uses the GNU
 many of the more traditional key projects in the open source world use copyleft licenses such as
 the AGPL, GNU GPL, GNU LGPL, MPL or the `OSL <https://opensource.org/licenses/OSL-3.0>`_.
 
+
 Controversy
 -----------
 
-* Not fulfilling the license terms of a software license typically leads to the ability
-  for the license owner to revoke the license -- as it is relatively easy to not fulfill
-  all obligations of the GPL out of sheer negligence, the revocation without prior
-  warning seems disproportionate -- this is sometimes called the GPL death penalty.
-  The open source community though has a strong interest in bringing every licensee into
-  compliance by giving violators a fair chance to correct their behavior. SCS explicitly
-  supports the `GPL Cooperation Commitment <https://gplcc.github.io/gplcc/>`_ and pledges
-  to give violators a warning and a chance to correct action by allowing for a cure period.
-  This is a bit of a legacy issue -- the GPL version 3 does already contain language
-  that has cure provisions.
+* Not fulfilling the license terms of a software license typically leads to the ability for the
+  license owner to revoke the license -- as it is relatively easy to not fulfill all obligations
+  of the GPL out of sheer negligence, the revocation without prior warning seems
+  disproportionate -- this is sometimes called the GPL death penalty.  The open source community
+  though has a strong interest in bringing every licensee into compliance by giving violators a
+  fair chance to correct their behavior. SCS explicitly supports the `GPL Cooperation Commitment
+  <https://gplcc.github.io/gplcc/>`_ and the respective `document
+  <https://www.kernel.org/doc/html/v4.15/process/kernel-enforcement-statement.html>`_ from the
+  Linux kernel developers and pledges to give violators a warning and a chance to correct action
+  by allowing for a cure period. This is a bit of a legacy issue -- it is relevant to (L)GPLv2
+  code only -- v3 of L/A/GPL does already contain language that has cure provisions, so it's
+  clear by the licensing terms.
 
 * Many companies seem to be worried that they will inadvertently violate the GPL by negligence.
   And it is true that a company needs a tighter control of the usage of inbound source code
@@ -82,7 +86,8 @@ Despite this, many of the recent open source projects, especially in the cloud w
 have adopted permissive licenses, such as X11, BSD 3-clause, MIT and especially the popular
 `Apache software license <https://en.wikipedia.org/wiki/Apache_License>`_ (ASL2), as it
 appears to allow for faster adoption by companies that may not have mature open source
-policies in place.
+policies in place or that simply have overly careful lawyers which may be influenced
+by the scare tactics some bad companies have built on top of copyleft licenses.
 
 
 Affero
@@ -98,9 +103,11 @@ parties. Unlike the standard GPL, the Affero GPL (AGPL) does consider the act of
 available in such a way as similar to releasing the software and does require that applied
 changes to the software are being made available in this case.
 
-The AGPL thus closes a shortcoming in the traditional non-Affero GPL.
+The AGPL thus closes a shortcoming in the traditional non-Affero GPL for a world that
+increasingly moves towards networked services.
 
 The very successful `nextcloud <https://nextcloud.org/>`_ project uses the AGPLv3.
+
 
 Derived works and Strong vs. Weak Copyleft
 ------------------------------------------
@@ -126,6 +133,7 @@ make binary linking (including the use of interface definitions) a copyright bar
 allow for non-copylefted code to be linked against a weakly copylefted library. This license is
 used by many of the standard and system libraries in the Linux world and is often a good choice
 for libraries of standardized services.
+
 
 Patents
 -------
@@ -157,6 +165,7 @@ those patents to be only used defensively in the context of the covered open sou
 Should SCS be in a position to make inventions that should be protected by a software patent,
 it pledges to contribute these to the OIN pool.
 
+
 Copyright Assignments
 ---------------------
 
@@ -182,12 +191,14 @@ The SCS project will not change the license. There however might be cases, where
 can not consume AGPL'ed code (due to corporate policies, e.g. based on bad experience, immature
 license governance practices or lawyers that panic). Our goal would be to ensure that our
 licensing terms and all other pledges provide the assurance needed that users do not need to be
-afraid of the AGPL. However, unfortunately, some "open source" companies in the past have abused
-copyleft with scare and sell a proprietary license tactics to make money, which has hurt copyleft acceptance
-significantly. We might thus not be successful and need to somehow accept not serving all users
-or come up with a relicensing scheme that can not corrupt ourselves  We are following the
-copyleft-next discussion to work out how we can best achieve this, and this might have an
-influence how we do DCOs, maybe under a permissive license, or maybe need to use CLAs.
+afraid of the AGPL. The cure provisions from v3 of the GPL license family actually also help to
+avoid unnecessary fear. However, unfortunately, some "open source" companies in the past have
+abused copyleft with a scare and sell a proprietary license tactics to make money, which has
+hurt copyleft acceptance significantly. We might thus not be successful and need to somehow
+accept not serving all users or come up with a relicensing scheme that can not corrupt
+ourselves. We are following the copyleft-next discussion to work out how we can best achieve
+this, but have not yet found the silver bullet. This might have an influence how we do DCOs,
+maybe under a permissive license, or maybe need to use CLAs.
 
 Further reading:
 
