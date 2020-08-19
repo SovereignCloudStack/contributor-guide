@@ -180,17 +180,18 @@ contribute code.
 
 The SCS project will not change the license. There however might be cases, where
 potential users can not consume AGPL'ed code (e.g. due to immature license governance
-practices or lawyers that panic). So the SCS project might need to create a commercially
+practices or lawyers that panic). So the SCS project might need to create a permissively
 licensed and expensive but otherwise identical release for such customers, so they can adopt
 SCS with lower perceived legal risks in return for paying for engineering work at SCS.
 We are still working out whether that can be achieved with DCOs (under a permissive license)
 or whether we'll need CLAs for this.
 
-Further reading on DCO:
+Further reading:
 
 * https://developercertificate.org
 * https://julien.ponge.org/blog/developer-certificate-of-origin-versus-contributor-license-agreements/
 * https://lwn.net/Articles/592503/
+* https://sfconservancy.org/blog/2020/jan/06/copyleft-equality/
 
 
 .. [#] https://en.wikipedia.org/wiki/Software_patents_under_the_European_Patent_Convention
