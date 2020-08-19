@@ -18,6 +18,8 @@ Where we do create independent code, we do have additional preferences, though.
 For our own code, we do prefer the `Affero General Public License version 3
 <https://www.gnu.org/licenses/agpl-3.0.html>`_ (AGPLv3) as license. Likewise, for documentation,
 we prefer `CC-BY-SA <https://en.wikipedia.org/wiki/CC-BY-SA>`_.
+Where we create standard libraries to interface with our software, we would
+consider the `LGPLv3 <https://www.gnu.de/documents/lgpl-3.0.en.html>`_ for these.
 
 Reciprocity
 -----------
@@ -35,7 +37,8 @@ Reciprocity has many advantages:
 
 * Code that has been created as free software will stay free. While GPL code can be
   combined in a larger software collection with proprietary software, the code itself
-  including its enhancements etc. (technically: all derived works[*]_) will remain free.
+  including its enhancements etc. (technically: all derived works, see below) will
+  remain free.
 
 * The obligation to make the changes available avoids fragmentation. As changed and
   "improved" versions need to be made available, it is much easier to review and feed
@@ -45,7 +48,7 @@ Reciprocity has many advantages:
 
 The hugely successful `Linux kernel <https://kernel.org/>`_ project uses the GNU GPL;
 many of the more traditional key projects in the open source world use copyleft licenses such as
-the AGPL, GNU GPL, GNU LGPL or MPL.
+the AGPL, GNU GPL, GNU LGPL, MPL or the `OSL <https://opensource.org/licenses/OSL-3.0>`_.
 
 Controversy
 -----------
@@ -93,11 +96,36 @@ work is *released*, i.e. the software is passed on to a third party.
 In modern times, software is often used to provide a *networked service* (think SaaS) to third
 parties. Unlike the standard GPL, the Affero GPL (AGPL) does consider the act of making it
 available in such a way as similar to releasing the software and does require that applied
-changes are being made available in this case.
+changes to the software are being made available in this case.
 
 The AGPL thus closes a shortcoming in the traditional non-Affero GPL.
 
 The very successful `nextcloud <https://nextcloud.org/>`_ project uses the AGPLv3.
+
+Derived works and Strong vs. Weak Copyleft
+------------------------------------------
+
+What exactly constitutes derived work needs to be defined -- it's one of the questions where
+copyright law can get subtle. From a practical view, consuming (non-trivial) source code and
+binary linking is typically considered creating derived works. Whereas interacting via a network
+API or starting another process is typically considered a copyright boundary.  To avoid any
+unclarity, the Linux kernel community has explicitly called out using Linux system calls (which
+includes using the interface definitions) is a copyright boundary and can thus be done by
+applications with any license.
+
+Considering linked code to be derived works (as is the case in the GPL and AGPL) and thus
+requiring it under the same (or a compatible) copyleft license is considered a Strong Copyleft
+license.
+
+Libraries are often providing implementations for standard services and helpers; it may not be
+reasonable to consider applications that want to use a library as derived works from that
+library and requiring the application to thus be licensed under a (compatible) copyleft license.
+For these libraries, a Weak Copyleft license (such as the LGPL) can be used.  This would still
+require changes to the library *itself* to me made available under the copyleft license but would
+make binary linking (including the use of interface definitions) a copyright barrier and thus
+allow for non-copylefted code to be linked against a weakly copylefted library. This license is
+used by many of the standard and system libraries in the Linux world and is often a good choice
+for libraries of standardized services.
 
 Patents
 -------
@@ -116,11 +144,15 @@ all patent offices are fully following these rules.[#]_
 As software patents are existing and a serious danger to the open source goals, there are a few
 attempts to improve the situation. The Apache Software License (a permissive license), requires
 code contributors to grant an implicit patent license to all downstream recipients of the code
-to use it in the project that it was contributed to. The
-`Open Invention Network <https://www.openinventionnetwork.com/>`_ (OIN) has a
-meanwhile huge patent pool that is cross-licensed between all participants and which can freely
-be used by a large list of covered open source software by everyone, except for those that
-raise patent violation claims against any of the covered open source projects.
+to use the contributed code by itself or in combination with the project that it was contributed
+to and makes a possible patent holder lose its license rights should he nevertheless try to
+assert a patent against the thus licensed use.
+
+The `Open Invention Network <https://www.openinventionnetwork.com/>`_ (OIN) has a meanwhile
+huge patent pool that is cross-licensed between all participants and which can freely be used
+in a large list of covered open source software by everyone, except for those that raise patent
+violation claims against any of the covered open source projects. This basically restricts
+those patents to be only used defensively in the context of the covered open source projects.
 
 Should SCS be in a position to make inventions that should be protected by a software patent,
 it pledges to contribute these to the OIN pool.
@@ -148,7 +180,7 @@ contribute code.
 
 The SCS project will not change the license. There however might be cases, where
 potential users can not consume AGPL'ed code (e.g. due to immature license governance
-practices or lawyers that panick). So the SCS project might want to create a commercially
+practices or lawyers that panic). So the SCS project might need to create a commercially
 licensed and expensive but otherwise identical release for such customers, so they can adopt
 SCS with lower perceived legal risks in return for paying for engineering work at SCS.
 We are still working out whether that can be achieved with DCOs (under a permissive license)
@@ -160,10 +192,5 @@ Further reading on DCO:
 * https://julien.ponge.org/blog/developer-certificate-of-origin-versus-contributor-license-agreements/
 * https://lwn.net/Articles/592503/
 
-
-.. [*] Consuming source code and binary linking is typically considered creating derived
-   works, whereas interacting via a network API or starting another process is typically
-   considered a copyright boundary; using Linux system calls has been explicitly called
-   out to be a copyright boundary.
 
 .. [#] https://en.wikipedia.org/wiki/Software_patents_under_the_European_Patent_Convention
