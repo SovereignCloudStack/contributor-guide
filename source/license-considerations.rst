@@ -154,7 +154,7 @@ attempts to improve the situation. The Apache Software License (a permissive lic
 code contributors to grant an implicit patent license to all downstream recipients of the code
 to use the contributed code by itself or in combination with the project that it was contributed
 to and makes a possible patent holder lose its license rights should he nevertheless try to
-assert a patent against the thus licensed use.
+assert a patent against the thus licensed use. The AGPLv3 has a similar clause.
 
 The `Open Invention Network <https://www.openinventionnetwork.com/>`_ (OIN) has a meanwhile
 huge patent pool that is cross-licensed between all participants and which can freely be used
