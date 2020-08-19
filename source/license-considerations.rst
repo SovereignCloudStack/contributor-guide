@@ -178,13 +178,16 @@ with `Developer Certificates of Origin
 of kernel commits).  This is deemed sufficient to document the origin and the authorization to
 contribute code.
 
-The SCS project will not change the license. There however might be cases, where
-potential users can not consume AGPL'ed code (e.g. due to immature license governance
-practices or lawyers that panic). So the SCS project might need to create a permissively
-licensed and expensive but otherwise identical release for such customers, so they can adopt
-SCS with lower perceived legal risks in return for paying for engineering work at SCS.
-We are still working out whether that can be achieved with DCOs (under a permissive license)
-or whether we'll need CLAs for this.
+The SCS project will not change the license. There however might be cases, where potential users
+can not consume AGPL'ed code (due to corporate policies, e.g. based on bad experience, immature
+license governance practices or lawyers that panic). Our goal would be to ensure that our
+licensing terms and all other pledges provide the assurance needed that users do not need to be
+afraid of the AGPL. However, unfortunately, some "open source" companies in the past have abused
+copyleft with scare and sell a proprietary license tactics to make money, which has hurt copyleft acceptance
+significantly. We might thus not be successful and need to somehow accept not serving all users
+or come up with a relicensing scheme that can not corrupt ourselves  We are following the
+copyleft-next discussion to work out how we can best achieve this, and this might have an
+influence how we do DCOs, maybe under a permissive license, or maybe need to use CLAs.
 
 Further reading:
 
