@@ -1,4 +1,3 @@
-==============================
 License considerations for SCS
 ==============================
 
@@ -147,7 +146,7 @@ Software patents can significantly subvert the intended rights -- the open sourc
 general dislikes software patents for this and many other reasons that are discussed
 `elsewhere <https://en.wikipedia.org/wiki/Software_patents_and_free_software>`_ .
 In some countries, there are rules that prevent pure software from being patented, though not
-all patent offices are fully following these rules.[#]_
+all patent offices are fully following these rules. [#1]_
 
 As software patents are existing and a serious danger to the open source goals, there are a few
 attempts to improve the situation. The Apache Software License (a permissive license), requires
@@ -201,6 +200,7 @@ this, but have not yet found the silver bullet. This might have an influence how
 maybe under a permissive license, or maybe need to use CLAs.
 
 Further reading:
+----------------
 
 * https://developercertificate.org
 * https://julien.ponge.org/blog/developer-certificate-of-origin-versus-contributor-license-agreements/
@@ -208,4 +208,4 @@ Further reading:
 * https://sfconservancy.org/blog/2020/jan/06/copyleft-equality/
 
 
-.. [#] https://en.wikipedia.org/wiki/Software_patents_under_the_European_Patent_Convention
+.. [#1] https://en.wikipedia.org/wiki/Software_patents_under_the_European_Patent_Convention
