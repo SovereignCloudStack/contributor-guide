@@ -2,11 +2,16 @@
 Developer Certificate of Origin + Licenses
 ==========================================
 
+.. toctree::
+   :maxdepth: 1
+
+   license-considerations
+
 The Developer Certificate of Origin (DCO) is a lightweight way for contributors to certify
 that they wrote or otherwise have the right to submit the code they are contributing to
 the Sovereign Cloud Stack.
 
-.. code::
+.. code:: text
 
    By making a contribution to this project, I certify that:
 
