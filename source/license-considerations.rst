@@ -126,12 +126,14 @@ license.
 Libraries are often providing implementations for standard services and helpers; it may not be
 reasonable to consider applications that want to use a library as derived works from that
 library and requiring the application to thus be licensed under a (compatible) copyleft license.
-For these libraries, a Weak Copyleft license (such as the LGPL) can be used.  This would still
-require changes to the library *itself* to me made available under the copyleft license but would
-make binary linking (including the use of interface definitions) a copyright barrier and thus
-allow for non-copylefted code to be linked against a weakly copylefted library. This license is
-used by many of the standard and system libraries in the Linux world and is often a good choice
-for libraries of standardized services.
+For these libraries, a Weak Copyleft license (such as the `LGPL
+<https://www.gnu.org/licenses/lgpl-3.0.en.html>`_ or the `EPL
+<https://www.eclipse.org/legal/epl-2.0/>`_) can be used.  This would still require changes to
+the library *itself* to me made available under the copyleft license but would make binary
+linking (including the use of interface definitions) a copyright barrier and thus allow for
+non-copylefted code to be linked against a weakly copylefted library. This license is used by
+many of the standard and system libraries in the Linux world and is often a good choice for
+libraries of standardized services.
 
 
 Patents
@@ -202,10 +204,13 @@ maybe under a permissive license, or maybe need to use CLAs.
 Further reading:
 ----------------
 
-* https://developercertificate.org
-* https://julien.ponge.org/blog/developer-certificate-of-origin-versus-contributor-license-agreements/
+* https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licences
+* https://en.wikipedia.org/wiki/Software_patents_and_free_software
+* https://joinup.ec.europa.eu/collection/eupl/matrix-eupl-compatible-open-source-licences
 * https://lwn.net/Articles/592503/
 * https://sfconservancy.org/blog/2020/jan/06/copyleft-equality/
+* https://developercertificate.org
+* https://julien.ponge.org/blog/developer-certificate-of-origin-versus-contributor-license-agreements/
 
 
 .. [#1] https://en.wikipedia.org/wiki/Software_patents_under_the_European_Patent_Convention
