@@ -126,12 +126,14 @@ license.
 Libraries are often providing implementations for standard services and helpers; it may not be
 reasonable to consider applications that want to use a library as derived works from that
 library and requiring the application to thus be licensed under a (compatible) copyleft license.
-For these libraries, a Weak Copyleft license (such as the LGPL) can be used.  This would still
-require changes to the library *itself* to me made available under the copyleft license but would
-make binary linking (including the use of interface definitions) a copyright barrier and thus
-allow for non-copylefted code to be linked against a weakly copylefted library. This license is
-used by many of the standard and system libraries in the Linux world and is often a good choice
-for libraries of standardized services.
+For these libraries, a Weak Copyleft license (such as the `LGPL
+<https://www.gnu.org/licenses/lgpl-3.0.en.html>`_ or the `EPL
+<https://www.eclipse.org/legal/epl-2.0/>`_) can be used.  This would still require changes to
+the library *itself* to me made available under the copyleft license but would make binary
+linking (including the use of interface definitions) a copyright barrier and thus allow for
+non-copylefted code to be linked against a weakly copylefted library. This license is used by
+many of the standard and system libraries in the Linux world and is often a good choice for
+libraries of standardized services.
 
 
 Patents
