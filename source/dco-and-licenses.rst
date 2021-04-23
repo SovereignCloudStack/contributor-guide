@@ -38,9 +38,9 @@ the Sovereign Cloud Stack.
        this project or the open source license(s) involved.
 
 All contributions to the Sovereign Cloud Stack are licensed under the (OSI
-approved) open source license of the upstream project being used therein 
-(very often this is the 
-`Apache Software License v2<https://www.apache.org/licenses/LICENSE-2.0>`_).
+approved) open source license of the upstream project being used therein
+(very often this is the
+`Apache Software License v2 <https://www.apache.org/licenses/LICENSE-2.0>`_).
 
 Where we create independent code, we prefer to use the GNU Affero General Public
 License 3 (https://www.gnu.org/licenses/agpl-3.0.html), except for interface
