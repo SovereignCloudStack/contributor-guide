@@ -2,7 +2,7 @@
 Nextcloud
 =========
 
-We have a `nextcloud <https://nextcloud.com>`_ 
+We have a `nextcloud <https://nextcloud.com>`_
 `instance <https://scs.sovereignit.de>`_ for sharing files, calendar, contacts, ...
 setup for things that are not public.
 
