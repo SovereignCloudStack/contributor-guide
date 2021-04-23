@@ -37,10 +37,15 @@ the Sovereign Cloud Stack.
        maintained indefinitely and may be redistributed consistent with
        this project or the open source license(s) involved.
 
-All contributions to the Sovereign Cloud Stack are licensed under the GNU Affero General Public
-License 3 (https://www.gnu.org/licenses/agpl-3.0.html). Where Sovereign Cloud Stack is based
-on existing projects under OSI compliant Open Source projects, we use the respective license
-of these projects, so we can contribute our work back. All documentation content
+All contributions to the Sovereign Cloud Stack are licensed under the (OSI
+approved) open source license of the upstream project being used therein 
+(very often this is the 
+`Apache Software License v2<https://www.apache.org/licenses/LICENSE-2.0>`_).
+
+Where we create independent code, we prefer to use the GNU Affero General Public
+License 3 (https://www.gnu.org/licenses/agpl-3.0.html), except for interface
+code which we would put under LGPL-3 (weak copyleft).
+Own documentation content
 is licensed under Creative Commons BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
 
 Contributors sign-off that they adhere to these requirements by adding a ``Signed-off-by``

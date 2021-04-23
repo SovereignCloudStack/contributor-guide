@@ -18,7 +18,9 @@ For our own code, we do prefer the `Affero General Public License version 3
 <https://www.gnu.org/licenses/agpl-3.0.html>`_ (AGPLv3) as license. Likewise, for documentation,
 we prefer `CC-BY-SA <https://en.wikipedia.org/wiki/CC-BY-SA>`_.
 Where we create standard libraries to interface with our software, we would
-consider the `LGPLv3 <https://www.gnu.de/documents/lgpl-3.0.en.html>`_ for these.
+consider the `LGPLv3 <https://www.gnu.de/documents/lgpl-3.0.en.html>`_ for these,
+as we don't want interaction with our platform to be seen as requiring licensing
+code.
 
 
 Reciprocity
@@ -117,7 +119,7 @@ binary linking is typically considered creating derived works. Whereas interacti
 API or starting another process is typically considered a copyright boundary.  To avoid any
 unclarity, the Linux kernel community has explicitly called out using Linux system calls (which
 includes using the interface definitions) is a copyright boundary and can thus be done by
-applications with any license.
+applications with any license implications.
 
 Considering linked code to be derived works (as is the case in the GPL and AGPL) and thus
 requiring it under the same (or a compatible) copyleft license is considered a Strong Copyleft
@@ -152,10 +154,10 @@ all patent offices are fully following these rules. [#1]_
 
 As software patents are existing and a serious danger to the open source goals, there are a few
 attempts to improve the situation. The Apache Software License (a permissive license), requires
-code contributors to grant an implicit patent license to all downstream recipients of the code
+code contributors to grant a patent license to all downstream recipients of the code
 to use the contributed code by itself or in combination with the project that it was contributed
 to and makes a possible patent holder lose its license rights should he nevertheless try to
-assert a patent against the thus licensed use. The AGPLv3 has a similar clause.
+assert a patent against the thus licensed use. The (A)GPLv3 has a similar clause.
 
 The `Open Invention Network <https://www.openinventionnetwork.com/>`_ (OIN) has a meanwhile
 huge patent pool that is cross-licensed between all participants and which can freely be used
@@ -167,14 +169,28 @@ Should SCS be in a position to make inventions that should be protected by a sof
 it pledges to contribute these to the OIN pool.
 
 
-Copyright Assignments
----------------------
+Copyright Assignments and Contributor License Agreements
+--------------------------------------------------------
+
+Very few Open Source projects require copyright assignment; the GNU projects are the
+only commonly used ones that the author is aware of. This results in fully centralized
+copyright ownership. This puts the FSF into a very
+strong position -- a position to enforce copyright, to change licenses etc. This requires
+a lot of trust towards the copyright assigneed.
+
+Most open source projects prefer distributed copyright -- the authors (or their
+employers) retain the copyright to their works. They grant a license for the open
+source project to use and integrate and redistribute the work -- typically the
+license grant is extended to the public. In a sufficiently distributed copyright model,
+it is very hard to change a license, as all copyright holders would need to agree.
+This can both be considered advantageous and disadvantageous.
 
 Many software projects use `Contributor License Agreements
-<https://en.wikipedia.org/wiki/Contributor_License_Agreement>`_ (CLAs), where any code
-contribution needs to assign the copyright to the project owner (a foundation or sometimes a
-company). This ensures that the project owner has all needed rights. It also allows the project
-owner to enforce the license, to change it or to create derived works under a different license.
+<https://en.wikipedia.org/wiki/Contributor_License_Agreement>`_ (CLAs), documenting that
+contributed code grants certain rights to the project owner (a foundation or sometimes a
+company). This ensures that the project owner has all needed rights to use, protect,
+redistribute ... the code. If the CLA contains *copyright assignment*, it also allows the
+project to change the license or to create derived works under a different license.
 
 While this is advantageous for the project owner, it is not necessarily advantageous for the
 code contributor.
@@ -182,15 +198,16 @@ code contributor.
 Copyright enforcement does not require all copyrights to be held by a legal entity. Any holder
 of significant copyrights can actually enforce it against violators.
 
-The Linux kernel and an increasing number of projects do not work with copyright assignments but
+The Linux kernel and an increasing number of projects do not work with copyright assignments
+nor CLAs, but
 with `Developer Certificates of Origin
 <https://en.wikipedia.org/wiki/Developer_Certificate_of_Origin>`_ (DCO -- the signed-off lines
 of kernel commits).  This is deemed sufficient to document the origin and the authorization to
 contribute code.
 
 The SCS project will not change the license. There however might be cases, where potential users
-can not consume AGPL'ed code (due to corporate policies, e.g. based on bad experience, immature
-license governance practices or lawyers that panic). Our goal would be to ensure that our
+can not consume AGPL'ed or LGPL'ed code (due to corporate policies, e.g. based on bad experience,
+immature license governance practices or lawyers that panic). Our goal would be to ensure that our
 licensing terms and all other pledges provide the assurance needed that users do not need to be
 afraid of the AGPL. The cure provisions from v3 of the GPL license family actually also help to
 avoid unnecessary fear. However, unfortunately, some "open source" companies in the past have
