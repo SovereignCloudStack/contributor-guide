@@ -218,6 +218,16 @@ ourselves. We are following the copyleft-next discussion to work out how we can 
 this, but have not yet found the silver bullet. This might have an influence how we do DCOs,
 maybe under a permissive license, or maybe need to use CLAs.
 
+
+License in = License out
+------------------------
+It is best practice that open source projects grant their downstream users the same
+license rights as they received contributions under. Or worded the opposite direction:
+It is best practice to require no more rights to be granted from upstream contributors
+(in the CLA or DCO) than the projects grants to downstream consumers of the project.
+SCS follows this best practice.
+
+
 Further reading:
 ----------------
 
