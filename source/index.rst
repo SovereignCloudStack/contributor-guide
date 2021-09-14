@@ -10,7 +10,7 @@ style, and syntax consistent.
    :maxdepth: 1
 
    dco-and-licenses
-   github
+   github/index.rst
    meetings
    teams
    glossary

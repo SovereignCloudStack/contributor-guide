@@ -1,7 +1,6 @@
-======
-Github
-======
+.. _collaborating:
 
+===========================================
 Collaborating with issues and pull requests
 ===========================================
 
