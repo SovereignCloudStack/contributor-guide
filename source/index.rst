@@ -13,6 +13,7 @@ style, and syntax consistent.
    github/index.rst
    meetings
    teams
+   nextcloud
    glossary
 
 Except where otherwise noted, this document is licensed under Creative Commons Attribution
