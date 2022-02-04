@@ -22,6 +22,7 @@ Sprint review/Backlog refinement/Sprint planning meetings
 Special interest groups (SIGs)
 ==============================
 
+* Identity & Access Management (IAM): Bi-Weekly on Friday at 1000 CEST (1 hour)
 * Monitoring & Logging: Weekly on Friday at 1200 CEST (1 hour)
 
 See :doc:`teams`
