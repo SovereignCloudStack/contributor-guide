@@ -1,3 +1,6 @@
+> **Warning**
+> Archived and merged into the [Docs](https://github.com/SovereignCloudStack/Docs) repository.
+> 
 # SCS contributor guide
 
 ![Sphinx](https://github.com/SovereignCloudStack/contributor-guide/workflows/Sphinx/badge.svg)
